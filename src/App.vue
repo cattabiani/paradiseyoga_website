@@ -77,7 +77,7 @@
 
 .container {
   display: flex;
-  max-width: 800px; /* Set a max-width for better layout */
+  max-width: 1000px; /* Set a max-width for better layout */
   width: 100%;
 }
 
