@@ -40,8 +40,10 @@
 
           <div class="pratiche">
             <strong>Pratiche di:</strong><br />
-            <span class="yoga">HATA YOGA (GIOVEDI’ alle 18,15)</span><br />
-            <span class="yoga">SWEET YOGA FLOW (SABATO alle 10,30)</span>
+            <span class="yoga">HATA YOGA</span><br />
+            <span class="yoga">(GIOVEDI’ alle 18,15)</span><br />
+            <span class="yoga">SWEET YOGA FLOW</span><br />
+            <span class="yoga">(SABATO alle 10,30)</span>
           </div>
 
           <p class="riequilibrio">
