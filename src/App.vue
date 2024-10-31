@@ -1,10 +1,13 @@
 <template>
   <div id="app">
+    <div class="header-container">
+      <h1>Paradise Yoga Center a Parma</h1>
     <div class="container">
+      
       <!-- Left Column -->
       <div class="left-column">
         <!-- Main Logo -->
-        <img src="./assets/logo.jpg" alt="Paradise Yoga Logo" class="main-logo" />
+        <img src="./assets/logo.jpg" alt="Paradise Yoga Center Logo" class="main-logo" />
 
         <!-- Placeholder for Map -->
         <div class="map">
@@ -26,13 +29,12 @@
         <!-- Sponsored Image and Text -->
         <div class="sponsor">
           <p>Con il patrocinio di:</p>
-          <img src="./assets/AiCS.png" alt="AiCS Logo" class="sponsor-logo" />
+          <img src="./assets/AiCS.png" alt="Associazione Italiana Cultura e Sport Logo" class="sponsor-logo" />
         </div>
 
         <!-- Main Text Content -->
         <div class="main-text">
-          <h2 class="date">da giovedì</h2>
-          <h3 class="date">7 novembre 2024</h3>
+          <h3 class="date">da giovedì 7 novembre 2024</h3>
 
           <p class="calendar">
             <strong>CALENDARIO DELLE PRATICHE FINO AL 30 DICEMBRE 2024:</strong>
@@ -53,14 +55,17 @@
             <strong>PRIMA PRATICA GRATUITA</strong>
           </p>
 
-          <p>
             <strong>Per tutte le informazioni:</strong><br />
-            Carlo 334.6575822<br />
-            <a href="mailto:carlo.cattabiani@unipr.it">carlo.cattabiani@unipr.it</a>
-          </p>
+            <address>
+  Paradise Yoga Center<br />
+  Via Laudedeo Testi 4, Parma PR, Italy<br />
+  Phone: +39 334 657 5822<br />
+  <a href="mailto:carlo.cattabiani@unipr.it">carlo.cattabiani@unipr.it</a>
+</address>
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -74,6 +79,13 @@
   justify-content: center;
   font-family: Arial, sans-serif;
   padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  max-width: 1000px; /* Set a max-width for better layout */
+  width: 100%;
+  flex-direction: column;
 }
 
 .container {
