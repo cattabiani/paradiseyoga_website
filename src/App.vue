@@ -2,6 +2,7 @@
   <div id="app">
     <div class="header-container">
       <h1>Paradise Yoga Center a Parma</h1>
+      <h3>Sito in Costruzione</h3>
     <div class="container">
       
       <!-- Left Column -->
